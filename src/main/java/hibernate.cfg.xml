@@ -18,6 +18,19 @@
 	
 		<mapping class="com.rohit.hibernate.annotation.EmployeeAnnot" />
 
+		<mapping class="com.rohit.tph.annotation.StudentTPH" />
+		<mapping class="com.rohit.tph.annotation.RegularStudentTPH" />
+		<mapping class="com.rohit.tph.annotation.CreditTransferStudentTPH" />
+		
+		<mapping class="com.rohit.tps.annotation.StudentTPS" />
+		<mapping class="com.rohit.tps.annotation.RegularStudentTPS" />
+		<mapping class="com.rohit.tps.annotation.CreditTransferStudentTPS" />
+		
+			<mapping class="com.rohit.tpc.annotation.StudentTPC" />
+		<mapping class="com.rohit.tpc.annotation.RegularStudentTPC" />
+		<mapping class="com.rohit.tpc.annotation.CreditTransferStudentTPC" />
+
+
 	</session-factory>
 
 </hibernate-configuration>  
